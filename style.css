@@ -1,0 +1,137 @@
+body {
+    font-family: 'Source Serif Pro', 'Merriweather', 'Noto Serif', 'Georgia', 'Times New Roman', Times, serif;
+    background: #fff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    transition: background 0.4s, color 0.4s, border-color 0.4s;
+}
+
+main {
+    max-width: 600px;
+    margin: 40px auto 0 auto;
+    padding: 0 20px;
+    background: #fff;
+    font-size: 1em;
+    transition: background 0.4s, color 0.4s, border-color 0.4s;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    transition: background 0.4s, color 0.4s, border-color 0.4s;
+}
+
+p, ul {
+    font-size: 1em;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+ul {
+    margin-left: 1.5em;
+    padding-left: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1em;
+    color: #888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bar {
+    width: 100%;
+    max-width: 600px;
+    border-top: 3px solid #bbb;
+    margin-bottom: 16px;
+}
+
+footer > div {
+    max-width: 600px;
+    width: 100%;
+}
+
+body.dark-mode {
+    background: #181a1b;
+    color: #e0e0e0;
+}
+
+body.dark-mode main {
+    background: #181a1b;
+}
+
+body.dark-mode h2 {
+    color: #fff;
+}
+
+body.dark-mode a {
+    color: #8ab4f8;
+}
+
+body.dark-mode footer {
+    color: #aaa;
+}
+
+body.dark-mode footer a {
+    color: #8ab4f8;
+}
+
+body.dark-mode footer a:hover {
+    color: #a3c9fa;
+}
+
+#mode-toggle {
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    left: auto;
+    z-index: 1000;
+    font-size: 1.3em;
+    background: none;
+    color: #333;
+    border: none;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    box-shadow: none;
+    padding: 0;
+    transition: color 0.2s;
+}
+
+#mode-toggle:hover {
+    color: #174080;
+    background: none;
+    border: none;
+}
+
+body.dark-mode #mode-toggle {
+    color: #e0e0e0;
+    background: none;
+    border: none;
+}
+
+body.dark-mode #mode-toggle:hover {
+    color: #a3c9fa;
+    background: none;
+    border: none;
+}
+
+body, main, h2, a, footer {
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+} 
