@@ -81,6 +81,7 @@ body.dark-mode h2 {
 
 body.dark-mode a {
     color: #8ab4f8;
+    border-bottom: 1px dotted #8ab4f8;
 }
 
 body.dark-mode footer {
@@ -134,4 +135,18 @@ body.dark-mode #mode-toggle:hover {
 
 body, main, h2, a, footer {
     transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    border-bottom: 1px dotted #2a5db0;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+footer a {
+    color: #4a90e2;
+    margin: 0 10px;
+    text-decoration: none;
+    border-bottom: none;
 } 
