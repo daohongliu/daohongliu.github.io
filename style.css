@@ -149,4 +149,19 @@ footer a {
     margin: 0 10px;
     text-decoration: none;
     border-bottom: none;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+    html {
+        font-size: 17px;
+    }
+    main, footer > div, .footer-bar {
+        max-width: 98vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .footer-bar {
+        margin-bottom: 12px;
+    }
 } 
